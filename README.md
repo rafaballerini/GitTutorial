@@ -68,7 +68,7 @@ Exemplo:
 * Para você publicar de vez no seu GitHub pelo remote, utilizaremos o git push. O push vai enviar todas suas modificações (commits) para seu repositório externo (no caso o GitHub).
 Exemplo:
     ```
-    git push -u origin master
+    git push origin master
     ou
     git push Updates
     ```
@@ -117,11 +117,17 @@ Exemplo:
     <img src="https://i.imgur.com/H4KHKVT.png"><br>
     OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
 
+#### [IMPORTANTE!] Caso esteja no windows, abra o git terminal que foi instalado e continue o tutorial, caso esteja no Mac ou linux, basta fazer o tutorial no terminal padrão.
+
 * Agora criaremos um arquivo README em nossa pasta local, que servirá para apresentar o seu projeto, como rodar, e etc... (Este artigo que você está lendo agora é um README). Podemos criar pelo próprio terminal com o comando:<br> ```echo "# exemplo" >> README.md```<br>
 * Após criar o primeiro arquivo, iniciaremos o repositório, com o comando:<br> ```git init ```<br>
 * Após iniciar o repositório poderemos adicionar o README ao repositório, com o comando: <br>```git add README.md ```<br>
 * Agora podemos fazer o commit de nossas mudanças com o comando: <br>```git commit -m "Nosso primeiro commit" ```.<br>
 * Vamos adicionar agora uma branch nova para usar como Updates, assim como no nosso exemplo, com o comando: <br>```git branch updates```<br>
 * Chegou a hora de fazer o remote para conectar ao GitHub, utilizando o comando:<br> ```git remote add origin https://github.com/Seu_Usuário/test.git```<br>
-* Para publicaremos em nossa branch master, utilizaremos o comando: <br>```git push -u origin master```<br>
-* Agora para finalizar, faremos o push do último arquivo, então vamos criar com o comando <br>```echo "print('Olá mundo')" >> app.py```<br> adicionaremos ao repositório na branch updates com:<br> ```git checkout updates```, ```git add app.py``` ```git commit -m add app.py``` ```git push -u origin updates```.<br> Então poderemos fazer o merge para a branch master com (ele ficará disponível em pull requests até que aceite ou de o git push do final do tutorial):<br> ```git checkout master``` ```git merge updates```<br>e para finalizar:<br> ```git push -u origin master``` <br>
+* Para publicaremos em nossa branch master, utilizaremos o comando: <br>```git push origin master```<br>
+* Agora para finalizar, faremos o push do último arquivo, então vamos criar com o comando <br>```echo "print('Olá mundo')" >> app.py```<br> adicionaremos ao repositório na branch updates com:<br> ```git checkout updates```, ```git add app.py``` ```git commit -m add app.py``` ```git push origin updates```.<br> Então poderemos fazer o merge para a branch master com (ele ficará disponível em pull requests até que aceite ou de o git push do final do tutorial):<br> ```git checkout master``` ```git merge updates```<br>e para finalizar:<br> ```git push origin master``` <br>
+
+### passos ilustrados
+<img src="https://i.imgur.com/umL1OMf.png">
+<img src="https://i.imgur.com/Mpptxzi.png">
