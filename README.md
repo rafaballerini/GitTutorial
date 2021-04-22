@@ -128,6 +128,6 @@ Exemplo:
 * Para publicaremos em nossa branch master, utilizaremos o comando: <br>```git push origin master```<br>
 * Agora para finalizar, faremos o push do último arquivo, então vamos criar com o comando <br>```echo "print('Olá mundo')" >> app.py```<br> adicionaremos ao repositório na branch updates com:<br> ```git checkout updates```, ```git add app.py``` ```git commit -m add app.py``` ```git push origin updates```.<br> Então poderemos fazer o merge para a branch master com (ele ficará disponível em pull requests até que aceite ou de o git push do final do tutorial):<br> ```git checkout master``` ```git merge updates```<br>e para finalizar:<br> ```git push origin master``` <br>
 
-### Passos ilustrados
+### Passos ilustrados (linux)
 <img src="https://i.imgur.com/wE31Vr2.png">
 <img src="https://i.imgur.com/Om6JvZ0.png">
