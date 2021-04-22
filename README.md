@@ -114,7 +114,8 @@ Exemplo:
     <img src="https://i.imgur.com/8x2GWNX.png">
     <img src="https://i.imgur.com/BYeHVfh.png"><br>
 Se tudo der certo, deve carregar esta página:
-    <img src="https://i.imgur.com/H4KHKVT.png">OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
+    <img src="https://i.imgur.com/H4KHKVT.png"><br>
+OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
 
 * Agora criaremos um arquivo README em nossa pasta local, que servirá para apresentar o seu projeto, como rodar, e etc... (Este artigo que você está lendo agora é um README). Podemos criar pelo próprio terminal com o comando: ```echo "# exemplo" >> README.md```
 * Após criar o primeiro arquivo, iniciaremos o repositório, com o comando: ```git init ```
