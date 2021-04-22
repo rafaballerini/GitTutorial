@@ -10,8 +10,8 @@
 * Caso seu sistema seja Unix/Linux, basta ver a instalação para sua distro clicando neste <a href="https://git-scm.com/download/linux">link</a>.
 * Caso seu sistema seja MacOs, você precisará do gerenciador de pacotes "brew", para instalar o brew basta clicar neste <a href="https://brew.sh/">link</a>. Após instalar o brew poderá instalar o git clicando neste <a href="https://git-scm.com/download/mac">link</a>.
 ## Funcionamento do git
-* Para que seus projetos não fiquem de uma forma fixa em uma única linha cronológica e fique mais organizado, utilizamos as ramificações que podemos fazer a partir da linha principal para podermos mudar nosso código de uma forma que tenha uma organização e seleção melhor do que vamos enviar para a linha de produção. Esta linha cronológica é chamada de Branch, a linha principal é a chamada master e você pode utilizar o nome que quiser para organizar as novas linhas cronológicas. Para criarmos uma branch Updates por exemplo, utilizaríamos o comando: ```git branch Updates ```<br>
-	Exemplo:
+* Para que seus projetos não fiquem de uma forma fixa em uma única linha cronológica e fique mais organizado, utilizamos as ramificações que podemos fazer a partir da linha principal para podermos mudar nosso código de uma forma que tenha uma organização e seleção melhor do que vamos enviar para a linha de produção. Esta linha cronológica é chamada de Branch, a linha principal é a chamada master e você pode utilizar o nome que quiser para organizar as novas linhas cronológicas. Para criarmos uma branch Updates por exemplo, utilizaríamos o comando: ```git branch Updates ```
+    Exemplo:
     ```
            Updates
          /
@@ -94,8 +94,7 @@ Exemplo:
 	         /          \
           D---E---F---G---H---I master
  	```
----
-
+---++
 # O que é GitHub
 * O GitHub é um serviço que hospeda projetos pelo sistema de versionamento Git. 
 * No GitHub, podemos hospedar nossos projetos de uma forma que outros desenvolvedores possam contribuir e permite que mais desenvolvedores colaborem e façam mudanças no mesmo projeto, mantendo a segurança com um registro de todo o progresso.
@@ -113,15 +112,14 @@ Exemplo:
 
     <img src="https://i.imgur.com/8x2GWNX.png">
     <img src="https://i.imgur.com/BYeHVfh.png"><br>
-Se tudo der certo, deve carregar esta página:
-    <img src="https://i.imgur.com/H4KHKVT.png"><br>
-OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
+    Se tudo der certo, deve carregar esta página:
+    <img src="https://i.imgur.com/H4KHKVT.png">OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
 
 * Agora criaremos um arquivo README em nossa pasta local, que servirá para apresentar o seu projeto, como rodar, e etc... (Este artigo que você está lendo agora é um README). Podemos criar pelo próprio terminal com o comando: ```echo "# exemplo" >> README.md```
 * Após criar o primeiro arquivo, iniciaremos o repositório, com o comando: ```git init ```
 * Após iniciar o repositório poderemos adicionar o README ao repositório, com o comando: ```git add README.md ```
 * Agora podemos fazer o commit de nossas mudanças com o comando: ```git commit -m "Nosso primeiro commit" ```.
-* Vamos adicionar agora uma branch nova para usar como Updates, assim como no nosso exemplo, com o comando: ```git branch Updates```
+* Vamos adicionar agora uma branch nova para usar como Updates, assim como no nosso exemplo, com o comando: ```git branch updates```
 * Chegou a hora de fazer o remote para conectar ao GitHub, utilizando o comando: ```git remote add origin https://github.com/Seu_Usuário/test.git```
 * Para publicaremos em nossa branch master, utilizaremos o comando: ```git push -u origin master```
-* Agora para finalizar, faremos o push do último arquivo, então vamos criar com o comando ```echo "print('Olá mundo')" >> app.py``` adicionaremos ao repositório com: ```git add app.py```, faremos o commit com: ```git commit -m "add app.py"``` e publicaremos com o: ```git push -u origin Updates```. Por fim vamos aplicar as modificações da Branch Updates para master com o comando: ```git push```
+* Agora para finalizar, faremos o push do último arquivo, então vamos criar com o comando ```echo "print('Olá mundo')" >> app.py``` adicionaremos ao repositório na branch updates com: ```git checkout updates```, ```git add app.py``` ```git commit -m add app.py``` ```git push -u origin updates```. Então poderemos fazer o merge para a branch master com: ```git checkout master``` ```git merge updates```e para finalizar: ```git push -u origin master``` 
