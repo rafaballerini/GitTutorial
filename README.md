@@ -10,8 +10,8 @@
 * Caso seu sistema seja Unix/Linux, basta ver a instalação para sua distro clicando neste <a href="https://git-scm.com/download/linux">link</a>.
 * Caso seu sistema seja MacOs, você precisará do gerenciador de pacotes "brew", para instalar o brew basta clicar neste <a href="https://brew.sh/">link</a>. Após instalar o brew poderá instalar o git clicando neste <a href="https://git-scm.com/download/mac">link</a>.
 ## Funcionamento do git
-* Para que seus projetos não fiquem de uma forma fixa em uma única linha cronológica e fique mais organizado, utilizamos as ramificações que podemos fazer a partir da linha principal para podermos mudar nosso código de uma forma que tenha uma organização e seleção melhor do que vamos enviar para a linha de produção. Esta linha cronológica é chamada de Branch, a linha principal é a chamada master e você pode utilizar o nome que quiser para organizar as novas linhas cronológicas. Para criarmos uma branch Updates por exemplo, utilizaríamos o comando: ```git branch Updates ```
-    Exemplo:
+* Para que seus projetos não fiquem de uma forma fixa em uma única linha cronológica e fique mais organizado, utilizamos as ramificações que podemos fazer a partir da linha principal para podermos mudar nosso código de uma forma que tenha uma organização e seleção melhor do que vamos enviar para a linha de produção. Esta linha cronológica é chamada de Branch, a linha principal é a chamada master e você pode utilizar o nome que quiser para organizar as novas linhas cronológicas. Para criarmos uma branch Updates por exemplo, utilizaríamos o comando: ```git branch Updates ```<br>
+Exemplo:
     ```
            Updates
          /
@@ -94,7 +94,8 @@ Exemplo:
 	         /          \
           D---E---F---G---H---I master
  	```
----++
+---
+
 # O que é GitHub
 * O GitHub é um serviço que hospeda projetos pelo sistema de versionamento Git. 
 * No GitHub, podemos hospedar nossos projetos de uma forma que outros desenvolvedores possam contribuir e permite que mais desenvolvedores colaborem e façam mudanças no mesmo projeto, mantendo a segurança com um registro de todo o progresso.
@@ -113,7 +114,8 @@ Exemplo:
     <img src="https://i.imgur.com/8x2GWNX.png">
     <img src="https://i.imgur.com/BYeHVfh.png"><br>
     Se tudo der certo, deve carregar esta página:
-    <img src="https://i.imgur.com/H4KHKVT.png">OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
+    <img src="https://i.imgur.com/H4KHKVT.png"><br>
+    OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
 
 * Agora criaremos um arquivo README em nossa pasta local, que servirá para apresentar o seu projeto, como rodar, e etc... (Este artigo que você está lendo agora é um README). Podemos criar pelo próprio terminal com o comando: ```echo "# exemplo" >> README.md```
 * Após criar o primeiro arquivo, iniciaremos o repositório, com o comando: ```git init ```
