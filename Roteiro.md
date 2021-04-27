@@ -2,6 +2,7 @@
 Roteiro para o vídeo no Youtube de como utilizar o git na prática
 
 ### Início do vídeo
+
 Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Ballerini e hoje eu vou mostrar pra vocês como utilizamos o GIT na prática
 
 No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git (aponta p caixinha), então nesse vídeo vou mostrar na prática como isso acontece
@@ -53,7 +54,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
 
-### Alterando o arquivo
+### Alterando e adicionando arquivo
 
 * Beleza, agora que temos o nosso repositório no Github configurado direitinho, podemos usar e abusar do que o Git oferece, afinal é pra isso que estamos utilizando ele né
 
@@ -61,7 +62,26 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Adiciona mais uma frase no arquivo `Essa é uma alteração`
 
+* Além disso iremos criar um novo arquivo `Projeto.md`, onde escreveremos `Esse é o arquivo onde desenvolverei o meu projeto`
+
 * Agora então precisamos subir essa alteração, pra isso seguiremos os mesmos passos de `git add .` (agora ponto para explicar que adiciona todos) e `git commit -m "Primeira alteração"`
 
 * Lembrando que para alterar algo no nosso respositório do Github precisamos dar o push, então `git push origin master` (sem o -u)
 
+* Se olharmos agora o nosso código no Github, ele terá sido alterado, e não só isso, se clicarmos no nome do commit, podemos ver exatamente as alterações que foram feitas nele
+
+* O verde com `+` e o vermelho com `-` mostra, os conteúdos que foram adicionados e editados dentro do código
+
+* Aqui nesse botão poderemos ver todos os commits já feitos anteriormente, então se clicarmos em algum deles, veremos exatamente o que havia sido alterado, além de claro, vermos o código como era. Incrível né?
+
+### Branch
+
+* Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa master, que é aquela linha do tempo principal
+
+* Agora vou mostrar pra vocês como criamos uma branch e depois como que juntamos ela com o código que já está na master (lembrando que ela é uma linha cronológica adicional/alternativa a principal)
+
+* Lembrem que eu estou aqui editando um arquivo markdown, porém isso tudo vale para qualquer tipo de arquivo com qualquer extensão
+
+* E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir.
+
+* Nesse caso vamos adicionar u
