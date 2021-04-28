@@ -84,4 +84,16 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir.
 
-* Nesse caso vamos adicionar u
+* Nesse caso vamos adicionar um novo arquivo para desenvolver a nossa feature "Botão"
+
+* Então a primeira coisa que fazemos é `git checkout -b "novo-botao"`, assim criando uma branch para ele
+
+* Esse comando além de criar a branch já entra nela com o checkout
+
+* Inclusive se olharmos agora aqui no meu VSCode, estamos dentro dela
+
+* Vou então criar o arquivo, criar o botão.md "aqui eu crio o botão"
+
+* E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o `git add .` e commitamos com o `git commit -m "novo botão"`
+
+* Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o `git push orgin master` né? Porém master era aquela branch principal. Agora então usaremos `git push origin botao`
