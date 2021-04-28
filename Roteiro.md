@@ -82,7 +82,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Lembrem que eu estou aqui editando um arquivo markdown, porém isso tudo vale para qualquer tipo de arquivo com qualquer extensão
 
-* E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir.
+* E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir
 
 * Nesse caso vamos adicionar um novo arquivo para desenvolver a nossa feature "Botão"
 
@@ -97,3 +97,11 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 * E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o `git add .` e commitamos com o `git commit -m "novo botão"`
 
 * Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o `git push orgin master` né? Porém master era aquela branch principal. Agora então usaremos `git push origin botao`
+
+* Agora se olharmos o nosso Github, veremos que tem 2 branches, a master e a botao
+
+* Vamos supor que eu ainda não tivesse terminado de desenvolver o botão, eu poderia continuar tranquilamente na branch `botao` até terminar
+
+* Mas Rafa, e se eu precisasse por algum motivo voltar naquela branch `master` e desenvolver a partir do que deixei lá? Sem problemas, a única coisa que você precisa fazer nesse caso é `git checkout master`, e pra voltar depois é só `git checkout botao` novamente
+
+* Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao` 
