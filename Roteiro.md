@@ -10,20 +10,28 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 ### Instalando o GIT
 
 * [Link com os downloads](https://git-scm.com/downloads)
-* Bem tranquilo de instalar
 
 ### Criar um projeto novo
 
-* Criar uma nova pasta no PC pra isso chamada "Git Tutorial"
+* Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
+
 * Abrir o VSCode nessa pasta
-* Criar um novo arquivo "README.md"
+
+* Criar um novo arquivo `README.md`
+
 * Explicar o que é Markdown e a importância de usarmos um ReadMe
-* Escrever dentro dele "Olá, nesse projeto você aprenderá alguns comandos do Git"
+* Escrever dentro dele `Olá, nesse projeto você aprenderá alguns comandos do Git`
+
 * Salva o arquivo
+
 * Agora então é hora de usarmos o Git
-* Abre o git bash (fala que pode ser pelo terminal do VSCode mesmo)
+
+* Abre o Git Bash que foi instalado na máquina (pode ser pelo terminal do VSCode mesmo)
+
 * `git init` para inicializar o repositório
-* Mostra que criou uma pastinha `.git` e é ali que toda a mágica acontece, então não apague
+
+* Foi criada uma pastinha `.git` e é ali que toda a mágica acontece, então não apague
+
 * `git add README.md` para colocar o arquivo na área de stagging 
 
 <img src="https://i1.wp.com/www.markus-gattol.name/misc/mm/si/content/git_git_add.png">
@@ -43,10 +51,20 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 ### Repositório no Github
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
+
 * Você vai preencher co as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
-* Logo depois vai aparecer essa página um pouco cinza e confusa, mas o que você tem que fazer é bem simples
+
+<img src="https://media.discordapp.net/attachments/831974152667398214/836828773067915274/unknown.png">
+
+* Logo depois vai aparecer essa página um pouco cinza e confusa, mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
+
+<img src="https://media.discordapp.net/attachments/831974152667398214/836828905859186708/unknown.png?width=1440&height=141">
+
 * Lembra do conceito de remote que eu expliquei pra vocês no último vídeo? Nós iremos utilizá-lo agora
-* Para passar o commit do meu repositório local (da minha máquina) para um repositório na plataforma do Github, usamos o `git remote add <nome do repositório (origin)> <link do repositório>`
+
+* Para passar o commit do meu repositório local (da minha máquina) para um repositório na plataforma do Github, usamos o `git remote add origin <link do repositório>`
+
+* `origin` é o nome utilizado para referenciar o nosso repositório
 
 * Agora já temos o nosso repositório local conectado com o respositório do Github, porém o commit que damos na máquina não sobe automaticamente para a plataforma
 
@@ -74,6 +92,8 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Aqui nesse botão poderemos ver todos os commits já feitos anteriormente, então se clicarmos em algum deles, veremos exatamente o que havia sido alterado, além de claro, vermos o código como era. Incrível né?
 
+<img src="https://media.discordapp.net/attachments/831974152667398214/836830443617648670/unknown.png">
+
 ### Branch
 
 * Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa master, que é aquela linha do tempo principal
@@ -100,8 +120,62 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Agora se olharmos o nosso Github, veremos que tem 2 branches, a master e a botao
 
+<img src="https://media.discordapp.net/attachments/812313742192279612/836820670037622854/unknown.png">
+
 * Vamos supor que eu ainda não tivesse terminado de desenvolver o botão, eu poderia continuar tranquilamente na branch `botao` até terminar
 
 * Mas Rafa, e se eu precisasse por algum motivo voltar naquela branch `master` e desenvolver a partir do que deixei lá? Sem problemas, a única coisa que você precisa fazer nesse caso é `git checkout master`, e pra voltar depois é só `git checkout botao` novamente
 
-* Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao` 
+* Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao`, como que junto ela com a master sem problemas?
+
+### Merge
+
+* Agora o que precisamos fazer é ir para a nossa branch principal `git checkout master` e lá faremos o merge com a branch `botao` que criamos, com `git merge botao`
+
+* Pronto, agora tudo o que tinha de alteração na branch `botao` juntou com a `master`
+
+* Para finalizar então, vamos jogar lá no Github isso tudo com o `git push origin master`
+
+### Clone
+
+Como vocês podem baixar meu código?
+
+* Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão `Code`, que quando você clica aparece um link
+
+<img src="https://media.discordapp.net/attachments/812313742192279612/836823564513705994/unknown.png">
+
+* Você irá copiar esse link e levar ele lá pro nosso terminal
+
+* O comando para puxar o projeto para a sua máquina é o `git clone https://github.com/rafaballerini/GitTutorial.git`
+
+* Não é necessário criar um repositório antes disso, como fizemos anteriormente com o `git init`. Dessa vez, basta abrir o terminal e clonar o projeto e tudo aparecerá
+
+### Pull
+
+E se eu fizer uma alteração no repositório, como vocês podem atualizar na máquina de vocês?
+
+* Basta vocês executarem o comando `git pull`, ele irá puxar todas as alterações feitas no repositório do Github para o seu repositório local
+
+### Pull request
+
+
+
+### Fork
+
+Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Github
+
+* Existe a ferramenta `fork`, que é bem mais simples para fazer isso
+
+* Você só precisa apertar nesse botão dentro do repositório e TCHANAM! Ele aparece automaticamente lá na sua conta 
+
+<img src="https://media.discordapp.net/attachments/831974152667398214/836826687634407434/unknown.png">
+
+### Finalização
+
+* Existem diversas outras funcionalidades do Git e do Github, porém tenho certeza que com tudo isso que vocês viram hoje vocês já conseguem desenvolver um projeto de uma forma bem legal
+
+* Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-scm.com/doc), pois qualquer dúvida que apareça pode ser respondida por lá na explicação
+
+* Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤
+
+* Até semana que vem, um beijo!
