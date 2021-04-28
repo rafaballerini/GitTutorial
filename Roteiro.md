@@ -1,17 +1,17 @@
 # Roteiro - Como usar o GIT
 Roteiro para o vídeo no Youtube de como utilizar o git na prática
 
-### Início do vídeo
+## Início do vídeo
 
 Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Ballerini e hoje eu vou mostrar pra vocês como utilizamos o GIT na prática
 
 No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git (aponta p caixinha), então nesse vídeo vou mostrar na prática como isso acontece
 
-### Instalando o GIT
+## Instalando o GIT
 
 * [Link com os downloads](https://git-scm.com/downloads)
 
-### Criar um projeto novo
+## Criar um projeto novo
 
 * Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
 
@@ -40,7 +40,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * `git commit -m "primeiro commit"` para de fato dar o commit no repositório
 
-### Interfaces Git
+## Interfaces Git
 
 * Beleza, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
 
@@ -48,7 +48,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Aqui eu vou mostrar pra vocês a usarem direto o Github, então vamos lá
 
-### Repositório no Github
+## Repositório no Github
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
 
@@ -72,7 +72,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
 
-### Alterando e adicionando arquivo
+## Alterando e adicionando arquivo
 
 * Beleza, agora que temos o nosso repositório no Github configurado direitinho, podemos usar e abusar do que o Git oferece, afinal é pra isso que estamos utilizando ele né
 
@@ -94,7 +94,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836830443617648670/unknown.png">
 
-### Branch
+## Branch
 
 * Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa master, que é aquela linha do tempo principal
 
@@ -128,7 +128,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao`, como que junto ela com a master sem problemas?
 
-### Merge
+## Merge
 
 * Agora o que precisamos fazer é ir para a nossa branch principal `git checkout master` e lá faremos o merge com a branch `botao` que criamos, com `git merge botao`
 
@@ -136,7 +136,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Para finalizar então, vamos jogar lá no Github isso tudo com o `git push origin master`
 
-### Clone
+## Clone
 
 Como vocês podem baixar meu código?
 
@@ -150,17 +150,17 @@ Como vocês podem baixar meu código?
 
 * Não é necessário criar um repositório antes disso, como fizemos anteriormente com o `git init`. Dessa vez, basta abrir o terminal e clonar o projeto e tudo aparecerá
 
-### Pull
+## Pull
 
 E se eu fizer uma alteração no repositório, como vocês podem atualizar na máquina de vocês?
 
 * Basta vocês executarem o comando `git pull`, ele irá puxar todas as alterações feitas no repositório do Github para o seu repositório local
 
-### Pull request
+## Pull request
 
 
 
-### Fork
+## Fork
 
 Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Github
 
@@ -170,7 +170,7 @@ Mas Rafa quando eu fiz o clone do seu repositório ele não apareceu no meu Gith
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836826687634407434/unknown.png">
 
-### Finalização
+## Finalização
 
 * Existem diversas outras funcionalidades do Git e do Github, porém tenho certeza que com tudo isso que vocês viram hoje vocês já conseguem desenvolver um projeto de uma forma bem legal
 
