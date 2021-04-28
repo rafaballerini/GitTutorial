@@ -52,7 +52,7 @@ No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que util
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
 
-* Você vai preencher co as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
+* Você vai preencher com as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828773067915274/unknown.png">
 
