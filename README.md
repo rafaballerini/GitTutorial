@@ -115,7 +115,7 @@ Exemplo:
     <img src="https://i.imgur.com/BYeHVfh.png"><br>
     Se tudo der certo, deve carregar esta página:
     <img src="https://i.imgur.com/H4KHKVT.png"><br>
-    OBS: Preste atenção no nome que você colocar, pois quando usarmos o git remote, deve colocar o nome no lugar de onde coloquei test!
+    OBS: Preste atenção no nome que você colocar no repositório e troque para o seu na hora de usarmos o git remote.
 
 #### [IMPORTANTE!] Caso esteja no windows, abra o git terminal que foi instalado e continue o tutorial, caso esteja no Mac ou linux, basta fazer o tutorial no terminal padrão.
 
