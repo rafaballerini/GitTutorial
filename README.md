@@ -7,7 +7,7 @@ Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Bal
 
 No vídeo anterior eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git (aponta p caixinha), então nesse vídeo vou mostrar na prática como isso acontece
 
-## Instalando o GIT
+## Instalando o GIT ->
 
 * [Link com os downloads](https://git-scm.com/downloads)
 
