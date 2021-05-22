@@ -50,11 +50,11 @@ Aqui eu vou mostrar pra vocês a usarem direto no Github.
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
 
-* Você vai preencher com as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
+Você vai preencher com as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828773067915274/unknown.png">
 
-* Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles jpa usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
+Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles jpa usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828905859186708/unknown.png?width=1440&height=141">
 
@@ -94,6 +94,7 @@ Aqui nesse botão poderemos ver todos os commits já feitos anteriormente, entã
 Até agora tudo o que fizemos de alterações e mandamos de commit, foi na nossa `main`, que é aquela linha do tempo principal.
 Agora vou mostrar pra vocês como criamos uma branch e depois como que juntamos ela com o código que já está na `main` (lembrando que ela é uma linha cronológica adicional/alternativa a principal)
 E outra, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir.
+<br>
 Obs. *Lembrem que eu estou aqui editando um arquivo markdown, porém isso tudo vale para qualquer tipo de arquivo com qualquer extensão*
 
 * Nesse caso vamos adicionar um novo arquivo para desenvolver a nossa feature `Botão`
@@ -189,6 +190,6 @@ Existem diversas outras funcionalidades do Git e do Github, porém tenho certeza
 
 Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-scm.com/doc), pois qualquer dúvida que apareça pode ser respondida por lá na explicação
 
-* Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤
+**Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
-* Até semana que vem, um beijo!
+Até semana que vem, um beijo!
