@@ -1,4 +1,4 @@
-# Como usar o Git e Github na prática
+# Como usar o Git e Github na prática <3
  
 ## Início do vídeo
 
@@ -134,7 +134,7 @@ Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pe
 
 <img src="https://media.discordapp.net/attachments/812313742192279612/836823564513705994/unknown.png">
 
-* Você irá copiar esse link e levar ele lá pro nosso terminal
+* Você irá copiar esse link e levar ele lá pro nosso terminal 
 
 * O comando para puxar o projeto para a sua máquina é o `git clone https://github.com/rafaballerini/GitTutorial.git`
 
