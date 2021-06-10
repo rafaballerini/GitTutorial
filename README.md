@@ -194,5 +194,7 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 
 Até semana que vem, um beijo!
 
+------------------------------------------------------------------------------------------
+Comentário da Satie
 
 Agora eu posso alterar no código dos outros sem medo de fazer alterações no código dos outros hehe
