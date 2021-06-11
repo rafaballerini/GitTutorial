@@ -106,7 +106,7 @@ Esse comando além de criar a branch já entra nela com o checkout, inclusive se
 
 * E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o `git add .` e commitamos com o `git commit -m "novo botão"`
 
-* Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o `git push orgin main` né? Porém main era aquela branch principal. Agora então usaremos `git push origin botao`
+* Para enviarmos agora que vai ser diferente. Vocês lembram que utilizávamos o `git push origin main` né? Porém main era aquela branch principal. Agora então usaremos `git push origin botao`
 
 Agora se olharmos o nosso Github, veremos que tem 2 branches, a `main` e a `botao`
 
