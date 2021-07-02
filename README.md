@@ -54,7 +54,7 @@ Você vai preencher com as informações do projeto, então dar o nome do reposi
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828773067915274/unknown.png">
 
-Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles jpa usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
+Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles já usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828905859186708/unknown.png?width=1440&height=141">
 
