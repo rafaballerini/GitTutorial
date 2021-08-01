@@ -81,6 +81,8 @@ Primeira coisa que faremos então é alterar esse arquivo que já commitamos
 
 * Agora então precisamos subir essa alteração, pra isso seguiremos os mesmos passos de `git add .` (agora ponto `.` pois adiciona todos os arquivos) e `git commit -m "Primeira alteração"`
 
+* Errou ao escrever a mensagem do seu commit?? Não tem problema! Damos um `git commit -m "Mensagem correta" --amend`. Ele vai simplesmente Consertar a mensagem se você deu um commit com uma mensagem errada. Mas toma cuidado para não ter dado um git push.
+
 * Lembrando que para alterar algo no nosso respositório do Github precisamos dar o push, então `git push origin main` (sem o -u)
 
 Se olharmos agora o nosso código no Github, ele terá sido alterado, e não só isso, se clicarmos no nome do `commit`, podemos ver exatamente as alterações que foram feitas nele.
