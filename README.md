@@ -16,7 +16,7 @@ No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei o
 
 * Abrir o VSCode nessa pasta
 
-* Criar um novo arquivo `README.md`
+* Criar um novo arquivoooo `README.md`
 
 * Escrever dentro dele `Olá, nesse projeto você aprenderá alguns comandos do Git`
 
