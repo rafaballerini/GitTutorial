@@ -40,7 +40,7 @@ Esse `add` é necessário antes de darmos o commit de fato, mas por que isso? No
 
 * `git branch -M "main"` para alterar o nome da branch principal de `master` para `main` (isso é uma boa prática atualmente recomendada)
 
-## Interfaces Git
+## Interfaces Git ->
 
 Beleza, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
 Existem algumas [interfaces legais do git](https://git-scm.com/downloads/guis) que você pode fazer o download para poder visualizar de fato como está o projeto, o que foi alterado em cada commit, quando foi alterado etc.
