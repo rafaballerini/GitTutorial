@@ -6,7 +6,7 @@ Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Bal
 
 No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git, então [nesse vídeo](https://www.youtube.com/watch?v=UBAX-13g8OM) vou mostrar na prática como isso acontece.
 
-## Instalando o GIT
+## Instalando o GIT ->
 
 * [Link com os downloads](https://git-scm.com/downloads)
 
