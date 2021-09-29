@@ -193,3 +193,10 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 **Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
 Até semana que vem, um beijo!
+
+------------------------------------------------------------------------------------------
+Comentário da Satie
+
+Agora eu posso alterar no código dos outros sem medo de fazer alterações no código dos outros hehe
+
+adicionando um novo comentário
