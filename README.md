@@ -70,6 +70,39 @@ Agora já temos o nosso repositório local conectado com o respositório do Gith
 
 Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
 
+## Configurações Git (básico)
+
+As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional.
+
+`(Ex.: Windows: C:\Users\Documents and Settings\Fulano ou *nix /home/fulano)`
+
+As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
+
+`Setar usuário | git config --global user.name "Fulano Detal"`
+
+`Setar email | git config --global user.email fulano.detal@email.com.br`
+
+
+
+---
+
+##### Níveis e arquivos do git config
+
+O comando git config pode aceitar argumentos para especificar o nível de configuração no qual operar. Os seguintes níveis de configuração estão disponíveis:
+
+* --local
+Por padrão, o git config grava em nível local se não houver nenhuma opção de configuração. A configuração de nível local é aplicada no repositório do contexto em que o git config for invocado. Os valores de configuração local são armazenados em um arquivo que pode ser encontrado no diretório .git do repositório: .git/config
+
+* --global
+A configuração de nível global é específica do usuário, ou seja, ela é aplicada a usuários do sistema operacional. Os valores de configuração global são armazenados em um arquivo localizado no diretório de base do usuário. ~ /.gitconfig em sistemas Unix e C:\Users\\.gitconfig no Windows
+
+* --system
+A configuração de nível do sistema é aplicada em toda a máquina. Ela abrange todos os usuários do sistema operacional e todos os repositórios. O arquivo de configuração de nível do sistema está no arquivo gitconfig localizado fora do caminho raiz do sistema. $(prefix)/etc/gitconfig em sistemas Unix. No Windows, esse arquivo pode ser encontrado em C:\Documents and Settings\All Users\Application Data\Git\config no Windows XP e em C:\ProgramData\Git\config no Windows Vista e versões mais recentes.
+
+Portanto, a ordem de prioridade para os níveis de configuração é: local, global, sistema. Quando o Git procurar valores de configuração, ele vai começar no nível local e ir até o nível de sistema.
+
+
+
 ## Alterando e adicionando arquivo
 
 Beleza, agora que temos o nosso repositório no Github configurado direitinho, podemos usar e abusar do que o Git oferece, afinal é pra isso que estamos utilizando ele né?
