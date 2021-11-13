@@ -126,6 +126,7 @@ Pronto, agora tudo o que tinha de alteração na branch `botao` juntou com a `ma
 
 * Para finalizar então, vamos jogar lá no Github isso tudo com o `git push origin main`
 
+Aula muito boa rafa, parabéns 
 ## Clone
 
 Como vocês podem baixar meu código?
