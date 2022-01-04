@@ -30,7 +30,7 @@ Agora então é hora de usarmos o Git
 
 Foi criada uma pastinha `.git` e é ali que toda a mágica acontece, então não apague
 
-* `git add README.md` para colocar o arquivo na área de stagging 
+* `git add README.md` para colocar o arquivo na área de stagging .
 
 <img src="https://i1.wp.com/www.markus-gattol.name/misc/mm/si/content/git_git_add.png">
 
