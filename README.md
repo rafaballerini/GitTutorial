@@ -44,7 +44,7 @@ Esse `add` é necessário antes de darmos o commit de fato, mas por que isso? No
 
 Beleza, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
 Existem algumas [interfaces legais do git](https://git-scm.com/downloads/guis) que você pode fazer o download para poder visualizar de fato como está o projeto, o que foi alterado em cada commit, quando foi alterado etc.
-Aqui eu vou mostrar pra vocês a usarem direto no Github.
+Aqui eu vou mostrar pra vocês como usarem direto no Github.
 
 ## Repositório no Github
 
