@@ -1,5 +1,5 @@
 # Como usar o Git e Github na prática
-COMENTARIO TESTE 
+COMENTARIO TESTE 2
 ## Início do vídeo
 
 Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Ballerini e hoje eu vou mostrar pra vocês como utilizamos o GIT na prática
