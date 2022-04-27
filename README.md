@@ -99,7 +99,7 @@ Obs. *Lembrem que eu estou aqui editando um arquivo markdown, porém isso tudo v
 
 * Nesse caso vamos adicionar um novo arquivo para desenvolver a nossa feature `Botão`
 
-* Então a primeira coisa que fazemos é `git checkout -b "novo-botao"`, assim criando uma branch para ele
+* Então a primeira coisa que fazemos é `git checkout -b "botao"`, assim criando uma branch para ele
 Esse comando além de criar a branch já entra nela com o checkout, inclusive se olharmos agora aqui no meu VSCode, estamos dentro dela.
 
 * Vou então criar o arquivo, criar o `botão.md` "aqui eu crio o botão"
