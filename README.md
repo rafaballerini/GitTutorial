@@ -128,7 +128,7 @@ Pronto, agora tudo o que tinha de alteração na branch `botao` juntou com a `ma
 
 ## Clone
 
-Como vocês podem baixar meu código?
+Como vocês podem baixar meu código? valeu pelo video!!!
 
 Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão `Code`, que quando você clica aparece um link:
 
