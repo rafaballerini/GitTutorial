@@ -193,3 +193,8 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 **Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
 Até semana que vem, um beijo!
+
+## Hi am Imran 
+
+am trying to polish my git skils although i don't understand french 
+sorry for the few lines am about to add to your README file. thank you
