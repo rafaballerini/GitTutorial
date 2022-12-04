@@ -10,7 +10,7 @@ No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei o
 
 * [Link com os downloads](https://git-scm.com/downloads)
 
-## Criar um projeto novo
+## Criar um projeto novo ->
 
 * Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
 
