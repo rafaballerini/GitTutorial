@@ -180,6 +180,7 @@ Ao clicar nesse botão, você será direcionado para uma página que fará a ava
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/838992584893399100/unknown.png">
 
+
 Você irá colocar um nome intuitivo, que demonstre a funcionalidade adicionada e o ideal é que você também crie uma boa descrição do que desenvolveu, não somente explicando o que é, mas ensinando ao dono do repositório original a forma como ele poderá testar também
 
 Depois disso, basta esperar para que o dono da branch original aceite o seu pull request
@@ -193,3 +194,5 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 **Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
 Até semana que vem, um beijo!
+
+Muito bom seu tutorial, me ajudou muito
