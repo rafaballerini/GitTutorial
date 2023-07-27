@@ -118,7 +118,7 @@ Mas Rafa, e se eu precisasse por algum motivo voltar naquela branch `main` e des
 
 Beleza! Agora desenvolvi tudo o que queria aqui na branch `botao`, como que junto ela com a main sem problemas?
 
-## Merge
+## Merge.
 
 * Agora o que precisamos fazer é ir para a nossa branch principal `git checkout main` e lá faremos o merge com a branch `botao` que criamos, com `git merge botao`
 
@@ -193,3 +193,4 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 **Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
 Até semana que vem, um beijo!
+Aula muito boa!
