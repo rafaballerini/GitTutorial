@@ -1,4 +1,4 @@
-# Como usar o Git e Github na prática
+# Como usar o Git e Github na prática para o Fernando
  
 ## Início do vídeo
 
