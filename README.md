@@ -23,6 +23,7 @@ No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei o
 * Salva o arquivo
 
 Agora então é hora de usarmos o Git
+`fazendo um teste`
 
 * Abre o Git Bash que foi instalado na máquina (pode ser pelo terminal do VSCode mesmo)
 
